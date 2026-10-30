@@ -34,14 +34,14 @@ The skill reads the live guidelines page first (when web access is available) an
 
 ```bash
 mkdir -p ~/.claude/skills/app-store-review && \
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/app-store-review-skill/main/skills/app-store-review/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/durmazdeniz7/app-store-review-skill/main/skills/app-store-review/SKILL.md \
   -o ~/.claude/skills/app-store-review/SKILL.md
 ```
 
 ### Option 2 – clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/app-store-review-skill.git
+git clone https://github.com/durmazdeniz7/app-store-review-skill.git
 mkdir -p ~/.claude/skills
 cp -r app-store-review-skill/skills/app-store-review ~/.claude/skills/
 ```
@@ -50,7 +50,7 @@ cp -r app-store-review-skill/skills/app-store-review ~/.claude/skills/
 
 ```powershell
 mkdir "$env:USERPROFILE\.claude\skills\app-store-review" -Force
-Invoke-WebRequest https://raw.githubusercontent.com/YOUR_USERNAME/app-store-review-skill/main/skills/app-store-review/SKILL.md `
+Invoke-WebRequest https://raw.githubusercontent.com/durmazdeniz7/app-store-review-skill/main/skills/app-store-review/SKILL.md `
   -OutFile "$env:USERPROFILE\.claude\skills\app-store-review\SKILL.md"
 ```
 
@@ -82,7 +82,7 @@ Uygulamanı App Store'a göndermeden önce Apple'ın inceleme kurallarına göre
 
 ```bash
 mkdir -p ~/.claude/skills/app-store-review && \
-curl -fsSL https://raw.githubusercontent.com/YOUR_USERNAME/app-store-review-skill/main/skills/app-store-review/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/durmazdeniz7/app-store-review-skill/main/skills/app-store-review/SKILL.md \
   -o ~/.claude/skills/app-store-review/SKILL.md
 ```
 
